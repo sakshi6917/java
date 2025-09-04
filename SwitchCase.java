@@ -35,7 +35,7 @@ class SwitchCase{
         //  String day="Friday";
         //  switch(day)
         //  {
-        //     case "Monday","Tuesday"-> System.out.println("6am");     //instead of using break '->' can be used too print statement
+        //     case "Monday","Tuesday"-> System.out.println("6am");     //instead of using break '->' can be used to print statement
         //         // System.out.println("6am");
         //         // break;
         //     case "Wednesday"->System.out.println("8am");
@@ -76,8 +76,7 @@ class SwitchCase{
          String result="";
          result=switch(day)
          {
-            case "Monday","Tuesday":yield "6am";      //we are using printing time again and again, so we can keep it in a variable and change values a/c to case and then lastly print it 
-            case "Wednesday": yield "8am";
+            case "Monday","Tuesday":yield "6am";      
             default: yield "7am";
          };                                     //dont forget to put a ';' here 
          System.out.println(result);
