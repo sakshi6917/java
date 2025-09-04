@@ -15,6 +15,10 @@ class Eighth{
             System.out.println("The character is not a vowel");
          }
        }
+       else
+       {
+         System.out.println("It is not an alphabet");
+       }
        sc.close();
     }
 }
