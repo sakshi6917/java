@@ -1,6 +1,7 @@
 // this() and super() method
 // this() => calls the constructor of the same class
 // super() => calls the default constructor of the super class
+//Every class in java extends Object class
 
 class A{
     A()

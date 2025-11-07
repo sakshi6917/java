@@ -3,10 +3,24 @@ class Student{
     String name;
     int roll;
     int marks;
+    // Student(String name,int roll,int marks)
+    // {
+    //     this.name=name;
+    //     this.roll=roll;
+    //     this.marks=marks;
+    // }
 }
 class ArrayOfObjects{
     public static void main(String args[])
     {
+        // Student arr[]=new Student[3];
+        // arr[0]=new Student("sakshi",45,98);
+        // arr[1]=new Student("megha",40,95);
+        // arr[2]=new Student("kriti",2,80);
+        // for(int i=0;i<arr.length;i++)
+        // {
+        //     System.out.println(arr[i].name + " " + arr[i].roll + " " + arr[i].marks);
+        // }
         Student s1=new Student();
         s1.name="Meghna";
         s1.roll=1;

@@ -30,7 +30,7 @@ class ProCalculator extends AdvanceCalculator{
     }
 }
 
-class InheritanceExample{
+public class InheritanceExample{
     public static void main(String args[])
     {
          AdvanceCalculator obj=new AdvanceCalculator();
