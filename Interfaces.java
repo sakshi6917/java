@@ -1,5 +1,6 @@
 interface Computer{
-    void code();
+
+    void code();         //all methods are by default public abstract and all the variables are final and static
 }
 
 
