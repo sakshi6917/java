@@ -22,7 +22,7 @@ class First{
       Employee e1=new Employee();
       Employee e2=new Employee();
       e1.setDetails(23,"Sakshi",10000);
-      e2.setDetails(61,"Kartik",20000);
+      e2.setDetails(61,"Kritika",20000);
       e1.display();
       e2.display();
     }
