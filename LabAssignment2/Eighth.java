@@ -17,7 +17,7 @@ class Eighth{
     public static void main(String args[])
     {
       Student obj=new Student();
-      obj.displayName("Kartik");
+      obj.displayName("Sakshi");
       obj.displayStudentDetails(4,97);
     }
 }

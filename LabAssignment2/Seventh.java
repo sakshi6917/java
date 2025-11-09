@@ -5,7 +5,7 @@ class Car{
     Car(String m)
     {
         model=m;
-        year=2025;
+        // year=2025;
     }
 
     Car(String n, int y )
@@ -16,7 +16,7 @@ class Car{
 
     void display()
     {
-        System.out.println("Car Model:" + model + " ,Year : " + year);
+        System.out.println("Car Model: " + model + " ,Year : " + year);
     }
 
 }
