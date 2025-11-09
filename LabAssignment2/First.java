@@ -16,6 +16,8 @@ class Employee{
         System.out.println("Id:" + id + "  Name:" + name+ "  Salary:" + salary);
     }
 }
+
+
 class First{
     public static void main(String args[])
     {
@@ -25,5 +27,6 @@ class First{
       e2.setDetails(61,"Kritika",20000);
       e1.display();
       e2.display();
+  
     }
 }

@@ -16,8 +16,7 @@ class Student{
         this.name=name;
         this.marks=marks;
     }
-    Student(Student s)
-    {
+    Student(Student s){
         roll=s.roll;
         name=s.name;
         marks=s.marks;
